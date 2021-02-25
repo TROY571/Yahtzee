@@ -15,7 +15,7 @@ public class Round
 
   public void addDice(Dice dice)
   {
-    if(dices.size()<4)
+    if(dices.size()<5)
     {
       dices.add(dice);
     }
