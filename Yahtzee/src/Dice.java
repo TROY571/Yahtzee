@@ -7,4 +7,9 @@ public class Dice
     number = (int)(Math.random()*6)+1;
     return number;
   }
+
+  public int getNumber()
+  {
+    return number;
+  }
 }
